@@ -1,0 +1,312 @@
+nav{
+    height: 50px;
+    background-color: #2e2e2e;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 10px 30px 12px 30px;
+    margin-right: 80px;
+}
+
+.active{
+    background-color: #fdbd55;
+}
+
+a:hover{
+    background-color: #2fb2c5;
+}
+
+#navContent{
+   background-color: #595961;
+}
+
+footer{
+    background-color: #2e2e2e;
+    height: 23px;
+    color: white;
+    text-align: center;
+}
+.whoAmI{
+    color: white;
+}
+.whoAmI h2{
+    display: inline-block;
+    margin: 0px;
+    float: left;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.whoAmI p{
+    width: 730px;
+    text-align: justify;
+    display: inline-block;
+    float: left;
+    clear: left;
+    font-size: 18px;
+}
+
+.whoAmI img{
+    max-height: 280px;
+    float: right;
+    border: 5px double white;
+    margin-right: 40px;
+}
+
+#imgSpace{
+    margin-right: 85px;
+    margin-top: -200px;
+}
+
+div.aboutText{
+    margin-left: 295px;
+}
+
+p > span {
+    text-decoration: underline;
+}
+
+span div.aboutText{
+    margin-top: 75px;
+    display: inline-block;
+    margin-left: 61px;
+}
+
+.aboutFrame{
+    display: inline-block;
+    margin-top: 75px;
+    margin-left: 62px;
+}
+
+#centerGostivar{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+#centerGostivar p{
+    margin: 0px;
+    color: white;
+}
+
+
+.contactContent{
+    height: 450px;
+    width: 100%;
+    background: #595961;
+}
+
+.form{
+    background: #f8f4f4;
+    height: 300px;
+    width: 78%;
+    border-radius: 9px;
+    display: inline-block;
+    margin-left: 172px;
+    margin-top: 0px;
+}
+
+#user{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 30px;
+
+}
+
+#user input{
+    inline-size: 475px;
+    color: rgba(119, 119, 119, 0.86);
+}
+
+#date{
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+#date input{
+    inline-size: 475px;
+}
+
+h2{
+    margin-top: 40px;
+    display: inline-block;
+    font-family: Arial;
+    color: white;
+}
+
+#location{
+    display: block;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+#location select{
+    inline-size: 480px;
+}
+
+#file{
+    display: block;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+#lastname{
+    display: inline-block;
+    margin-left: 110px;
+}
+
+#lastname input{
+    inline-size: 475px;
+    color: rgba(119, 119, 119, 0.86);
+}
+
+#text{
+    float: right;
+    margin-right: 50px;
+}
+
+textarea{
+    text-indent: -145px;
+    color: rgba(119, 119, 119, 0.86);
+}
+
+button{
+    background: #fdbd55;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    inline-size: 475px;
+    margin-left: 375px;
+    margin-top: 10px;
+}
+
+#notResponsive{
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#notResponsive a{
+    color: #fdbd55;
+}
+
+
+#otherContent{
+    background-color: #595961;
+    margin-bottom: 10px;
+}
+
+#otherContent > h2{
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    border-bottom: 2px groove white;
+    text-align: center;
+    width: 15%;
+    padding: 15px 0px;
+    margin-left: 65px;
+}
+#otherContent > .hobbies {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#otherContent > .hobbies > .hobbie {
+    height: 230px;
+    width: 260px;
+    margin-right: 15px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#otherContent > .hobbies > .hobbie > img{
+    margin: 15px 5px;
+    max-height: 355px;
+    max-width: 260px;
+
+}
+
+#otherContent > .hobbies > .hobbie > h2{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: -10px;
+    color: black;
+}
+
+#otherContent > .shortCodeCanvas{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 60px;
+    height: 400px;
+    width: 45%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#otherContent > .shortCodeCanvas h3{
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.code{
+    color: darkblue;
+}
+
+.top3{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.top3 h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+li p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.HomeIMG{
+    background: url("images/HomeONWD.png") no-repeat;
+    width: 1520px;
+    height: 660px;
+}
+
+.HomeIMG > h1{
+    color: white;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+    display: inline-block;
+    margin: 25px 0px 0px 28px;
+    letter-spacing: 8px;
+}
+
+.HomeIMG p:nth-child(2){
+    color: white;
+    font-size: 22px;
+    letter-spacing: 20px;
+    margin-left: 30px;
+    margin-top: -14px;
+}
+
+.HomeIMG p:nth-child(3){
+    color: white;
+    margin-left: 30px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About me</a>
+    <a href="other.html">Other</a>
+    <a class="active" href="contact.html">Contact me</a>
+</nav>
+
+<div class = "contactContent">
+
+    <center><h2>Contact form</h2></center>
+    <div class ="form">
+        <div id = "user">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" value="Your Name"><br><br>
+        </div>
+
+        <div id = "lastname">
+            <label for="flast">Last Name:</label><br>
+            <input type="text" id="flast" value="Your last name"><br><br>
+        </div>
+
+        <div id = "text">
+            <label for="floc">Subject:</label><br>
+            <textarea name="message" rows="8" cols="63">
+                    Write something...
+                </textarea>
+        </div>
+
+
+        <div id = "date">
+            <label for="fdate">Date of birth:</label><br>
+            <input type="date" id="fdate" value="dd-----yyyy"><br><br>
+        </div>
+
+        <div id = "location">
+            <label for="floc">Country:</label><br>
+            <select id="floc"><br><br>
+                <option value="Australia">Australia</option>
+                <option value="Macedonia">Macedonia</option>
+                <option value="Russia">Russia</option>
+            </select>
+        </div>
+        <div id = "file">
+            <label for="fFile">CV:</label>
+            <input type="file" id="fFile" name="fFile">
+        </div>
+
+
+        <div id = "button">
+            <button type="button" onclick="alert('Thank you for contacting us!')">Submit</button>
+        </div>
+
+
+        <div id="notResponsive">
+            <p>*** If this form is not responsive try contacting me on the following social media apps:
+                <a href="https://www.instagram.com/">Instagram</a>,
+                <a href="https://www.twitter.com/">Twitter</a>,
+                <a href="https://www.facebook.com/">Facebook</a>.</p>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+
+<footer>
+    &copy Filip Simjanovski. 2021-2022.
+</footer>
+
+</html>
